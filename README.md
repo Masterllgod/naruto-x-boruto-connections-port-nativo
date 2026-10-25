@@ -43,6 +43,7 @@ A parte gráfica usa o **shadowZero**, um renderizador nativo que pega os comand
 - **Controle físico automático:** plugou um controle (Xbox 360, PS3 e outros), os botões da tela somem; tirou, eles voltam. A opção **Toque + controle** (no emblema do Shadow) mantém os dois.
 - **Save 100%** embutido (tudo liberado), que guarda o seu save e o devolve ao desligar.
 - **DLC (trajes)** reconhecida na pasta do jogo e instalada sozinha.
+- **Atualização automática:** ao abrir o menu, o app avisa quando sai versão nova aqui no GitHub e já baixa e instala.
 - **Drivers de GPU customizados (Turnip)** em celulares **Snapdragon**, usados também pelo renderizador nativo.
 - Painel de desempenho (FPS, resolução, CPU, GPU e RAM) e botão de enviar log.
 
