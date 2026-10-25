@@ -39,7 +39,7 @@ A parte gráfica usa o **shadowZero**, um renderizador nativo que pega os comand
 - Recompilação estática do jogo para **ARM64**, sem interpretador de CPU.
 - Renderizador nativo **shadowZero** (Direct3D → Vulkan), com resolução interna de **360p, 480p, 720p, 1080p, 2K e 4K**.
 - **30 FPS fixos** (ou 20 / 24 para aliviar aparelhos mais fracos) e **modo desempenho**.
-- **Controles na tela** no formato do controle do Xbox (Y, X, B, A), com a **letra de cada botão** e um botão de **Despertar**; editor para mover, redimensionar e ajustar a transparência.
+- **Controles na tela** no formato do controle do Xbox (Y, X, B, A), com a **letra de cada botão**, um botão de **Despertar** e atalhos de jutsu, jutsu secreto e avanço; editor para mover, redimensionar e ajustar a transparência.
 - **Controle físico automático:** plugou um controle (Xbox 360, PS3 e outros), os botões da tela somem; tirou, eles voltam. A opção **Toque + controle** (no emblema do Shadow) mantém os dois.
 - **Save 100%** embutido (tudo liberado), que guarda o seu save e o devolve ao desligar.
 - **DLC (trajes)** reconhecida na pasta do jogo e instalada sozinha.
@@ -126,7 +126,8 @@ Pasta do jogo/
 | DEFESA | RT | defesa |
 | SUBSTITUIÇÃO | LT | substituição |
 | APOIO | LB / RB | personagens de apoio |
-| DESPERTAR | segurar Y | despertar (quando a barra permitir) |
+| DESPERTAR | analógico direito para o lado | despertar (quando a barra permitir) |
+| JUTSU / OUGI / AVANÇO | Y B / Y Y B / Y A | atalhos de jutsu, jutsu secreto e avanço |
 | SELECT / START | Back / Start | menu e pausa |
 
 O mapeamento de controles físicos pode ser mudado no menu, em **Controle → MAPEAR**.
