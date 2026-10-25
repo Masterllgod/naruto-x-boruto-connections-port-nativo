@@ -12,7 +12,7 @@
 ![Resolução](https://img.shields.io/badge/360p%20a%204K-30%20FPS-blue)
 ![Estado](https://img.shields.io/badge/estado-em%20desenvolvimento-yellow)
 
-[Sobre](#-sobre) · [Recursos](#-o-que-o-port-oferece) · [Requisitos](#-requisitos) · [Versão do jogo](#-versão-do-jogo-obrigatória) · [Controles](#-controles) · [Perguntas](#-perguntas-frequentes)
+[Sobre](#-sobre) · [Download](#️-download) · [Recursos](#-o-que-o-port-oferece) · [Requisitos](#-requisitos) · [Versão do jogo](#-versão-do-jogo-obrigatória) · [Controles](#-controles) · [Perguntas](#-perguntas-frequentes)
 
 </div>
 
@@ -27,8 +27,8 @@ A parte gráfica usa o **shadowZero**, um renderizador nativo que pega os comand
 > [!IMPORTANT]
 > **Nada do jogo é distribuído aqui.** Você precisa da sua **própria cópia** do jogo, na versão indicada em [Versão do jogo](#-versão-do-jogo-obrigatória). O *Storm Connections* é um mod de terceiros do *Storm Revolution* e também não faz parte deste projeto.
 
-> [!NOTE]
-> **Estado: em desenvolvimento.** O APK ainda **não foi liberado** ao público. Quando sair, ele aparece na página de **Releases**.
+> [!WARNING]
+> **Versão de testes.** O APK está na página de **[Releases](../../releases)**. Ainda pode travar ou ter falhas de imagem; relate nas *Issues* dizendo o aparelho e a resolução usada.
 
 <div align="center">
 <img src="docs/screenshots/luta.jpg" alt="Luta rodando no celular" width="720">
@@ -51,6 +51,15 @@ A parte gráfica usa o **shadowZero**, um renderizador nativo que pega os comand
 <br><br>
 <img src="docs/screenshots/controles.jpg" alt="Controles na tela" width="720">
 </div>
+
+## ⬇️ Download
+
+O APK está na página de **[Releases](../../releases)**.
+
+1. Instale o APK.
+2. Copie a pasta do jogo (com o `default.xex`) para o celular.
+3. Abra o app, toque no caminho da pasta embaixo do **JOGAR** para escolher a pasta do jogo e dê a permissão de acesso aos arquivos.
+4. Toque em **JOGAR**. A DLC, se estiver na pasta, é instalada sozinha.
 
 ## 📱 Requisitos
 
@@ -125,9 +134,9 @@ O mapeamento de controles físicos pode ser mudado no menu, em **Controle → MA
 ## ❓ Perguntas frequentes
 
 <details>
-<summary><b>Quando sai o download?</b></summary>
+<summary><b>Onde baixo?</b></summary>
 
-Ainda não há data. Quando o APK for liberado, ele será publicado em **Releases** com as instruções de instalação.
+Na página de **[Releases](../../releases)**. Veja as notas de cada versão.
 
 </details>
 
