@@ -43,6 +43,9 @@ A parte gráfica usa o **shadowZero**, um renderizador nativo que pega os comand
 - **Controle físico automático:** plugou um controle (Xbox 360, PS3 e outros), os botões da tela somem; tirou, eles voltam. A opção **Toque + controle** (no emblema do Shadow) mantém os dois.
 - **Save 100%** embutido (tudo liberado), que guarda o seu save e o devolve ao desligar.
 - **DLC (trajes)** reconhecida na pasta do jogo e instalada sozinha.
+- **Gerar quadros (AMD FG):** Off / 2x / 3x / 4x. O jogo roda a 30 FPS e a tela recebe 60, 90 ou 120 quadros por segundo. Modo **Desempenho** (leve, o mesmo do Storm 4 de PC) ou **Qualidade**, e **Tela (Hz)** Auto / 60 / 90 / 120. Feito sobre o fluxo óptico da AMD adaptado para celular (Mali, Adreno e Xclipse), sem arquivo externo.
+- **Sem congelamentos no ARM:** corrigido o anel de comandos da GPU que travava o jogo depois de alguns minutos (às vezes com o erro `0x0BADF00D`) em celulares e tablets.
+- **Android 11 e 12:** o app não fecha mais ao abrir com a internet ligada.
 - **Atualização automática:** ao abrir o menu, o app avisa quando sai versão nova aqui no GitHub e já baixa e instala.
 - **Drivers de GPU customizados (Turnip)** em celulares **Snapdragon**, usados também pelo renderizador nativo.
 - Painel de desempenho (FPS, resolução, CPU, GPU e RAM) e botão de enviar log.
@@ -161,6 +164,7 @@ Este repositório traz só a documentação. Os componentes de código aberto us
 Este projeto só foi possível graças a estes projetos de código aberto:
 
 - [**XenonRecomp**](https://github.com/hedge-dev/XenonRecomp): recompilador estático de PowerPC (Xbox 360)
+- [**AMD FidelityFX SDK**](https://github.com/GPUOpen-LibrariesAndSDKs/FidelityFX-SDK) (MIT): fluxo óptico e interpolação da geração de quadros
 - [**reNut**](https://github.com/masterspike52/reNut) e os ports [masseffect-nx](https://github.com/nebadasSwifty/masseffect-nx), [nfsmw-nx](https://github.com/StevensND/nfsmw-nx), banjo-nx e sa2-nx: base do renderizador nativo shadowZero
 - [**plume**](https://github.com/renderbag/plume) e [**XenosRecomp**](https://github.com/hedge-dev/XenosRecomp): camada Vulkan e tradução dos shaders do Xbox 360
 - [**Xenia Canary**](https://github.com/xenia-canary/xenia-canary): referência do hardware do Xbox 360 e modo de compatibilidade
